@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include "main.h"
 /**
-* _strdup - duplicate to new memory space location
+* _strdup - duplicate memory location
 * @str: char
 * Return: 0
 */
@@ -20,5 +20,5 @@ if (aaa == NULL)
 return (NULL);
 for (r = 0; str[r]; r++)
 aaa[r] = str[r];
-Return (aaa);
+Return aaa;
 }
