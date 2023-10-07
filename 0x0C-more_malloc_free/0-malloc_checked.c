@@ -2,10 +2,10 @@
 #include <stdlib.h>
 #include "main.h"
 /**
-*Description: malloc_checked allocates memory using the malloc
-*@b: number of bytes requested for allocation
-*malloc_checked: checks if malloc returns to ptr
-*Return: success return ptr
+** malloc_checked - allocates memory using malloc
+* @b: number of bytes requested for allocation
+* malloc_checked: checks if malloc returns to ptr
+* Return: success return ptr
 */
 void *malloc_checked(unsigned int b)
 {
